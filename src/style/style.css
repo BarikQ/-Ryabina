@@ -153,10 +153,10 @@ main {
   font-family: Lato;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 100%;
   text-transform: uppercase;
-  width:min-content;
+  width: min-content;
 }
 
 .menu-item__active {
