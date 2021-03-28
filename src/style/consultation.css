@@ -121,12 +121,13 @@ body {
   .consultation-container {
     display: flex;
     flex-direction: column;
-    grid-row-gap: 15px;
+    grid-row-gap: 0;
     box-sizing: border-box;
   }
 
   .consultation-item {
     width: 100%;
+    margin-bottom: 15px;
     background: #FFFFFF;
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.15);
     border-radius: 7px;
@@ -149,6 +150,10 @@ body {
     justify-content: center;
     margin: 5px 0;
     width: 100%;
+  }
+
+  .call-button__mobile {
+    margin-bottom: 20px;
   }
 
   .consultation-phone .phone-icon {
