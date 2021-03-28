@@ -1,0 +1,98 @@
+.section-consultation {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.consultation-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 320px);
+  justify-content: space-evenly;
+  align-items: flex-start;
+  grid-row-gap: 50px;
+}
+
+.consultation-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+
+  text-align: center;
+  color: #333333;
+}
+
+.consultation-title {
+  margin-top: 22px;
+}
+
+.consultation-description {
+  font-weight: 400;
+}
+
+.consultation-phone {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  text-decoration: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 29.1429px;
+  line-height: 36px;
+
+  color: #333333;
+}
+
+.consultation-phone .phone-icon {
+  margin-right: 24px;
+}
+
+.call-button__link {
+  margin-top: 16px;
+  text-decoration: none;
+}
+
+.call-button {
+  display: block;
+  margin: 0 auto;
+  width: 307px;
+  height: 50px;
+  background: #EE3124;
+  border-radius: 7px;
+  border: none;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.call-button:focus {
+  outline: none;
+}
+
+.call-button:hover {
+  box-shadow: 0 2px 10px -5px black;
+}
+
+.consultation-phone div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Личный кабинет</title>
+  <link rel="stylesheet" href="./src/style/style.css">
+
+  <link rel="stylesheet" href="./src/style/profile.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-content">
+      <div class="header-brand">
+        <img class="brand-logo" src="./src/images/header/brand-logo.svg" alt="RYABINA CREDIT" />
+        <h1 class="brand-title"><span class="brand-underline">R</span>YABINA CREDIT</h1>
+      </div>
+
+      <div class="header-links">
+        <a class="header-phone" href="tel:+74950110043">+7 (495) 011-00-43</a>
+
+        <a class="header-link__action header-link__login" href="#">Личный кабинет</a>
+
+        <a class="header-link__action header-link__logout" href="#">Выйти</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu-container">
+    <a class="menu-item menu-item__active" href="./profile.html">
+      <img class="menu-item__image" src="./src/images/menu/profile.svg" alt="[]" />
+      <span class="menu-item__title item-title__profile">ПРОФИЛЬ</span>
+    </a>
+
+    <a class="menu-item" href="./rating.html">
+      <img class="menu-item__image" src="./src/images/menu/rating.svg" alt="[]" />
+      <span class="menu-item__title">ФИНАНСОВЫЙ РЕЙТИНГ</span>
+    </a>
+
+    <a class="menu-item" href="./notification.html">
+      <img class=" menu-item__image" src="./src/images/menu/sms.svg" alt="[]" />
+      <span class="menu-item__title">СМС УВЕДОМЛЕНИЯ</span>
+    </a>
+
+    <a class="menu-item" href="./feedback.html">
+      <img class="menu-item__image" src="./src/images/menu/feedback.svg" alt="[]" />
+      <span class="menu-item__title">ОБРАТНАЯ СВЯЗЬ</span>
+    </a>
+
+    <a class="menu-item" href="./offers.html">
+      <img class="menu-item__image" src="./src/images/menu/offers.svg" alt="[]" />
+      <span class="menu-item__title">МОИ ПРЕДЛОЖЕНИЯ</span>
+    </a>
+
+    <a class="menu-item" href="./consultation.html">
+      <img class="menu-item__image" src="./src/images/menu/consultation.svg" alt="[]" />
+      <span class="menu-item__title">ЮРИДИЧЕСКАЯ КОНСУЛЬТАЦИЯ</span>
+    </a>
+  </div>
+
+  <main class="main">
+    <h2 class="section-title">
+      ПРОФИЛЬ
+    </h2>
+
+    <form class="profile-form" action="" id="form">
+      <div class="form-section">
+        <h3 class="form-section__title">Личные данные</h3>
+
+        <input class="form-input" placeholder="Имя" type="text" name="" id="">
+        <input class="form-input" placeholder="Фамилия" type="text" name="" id="">
+        <input class="form-input" placeholder="Email" type="text" name="" id="">
+        <input class="form-input" placeholder="Дата рождения" type="text" name="" id="">
+      </div>
+      <div class="form-section">
+        <h3 class="form-section__title">Паспортные данные</h3>
+
+        <input class="form-input" placeholder="Серия" type="text" name="" id="">
+        <input class="form-input" placeholder="Номер" type="text" name="" id="">
+        <input class="form-input" placeholder="Код подтверждения" type="text" name="" id="">
+        <input class="form-input" placeholder="Место рождения" type="text" name="" id="">
+      </div>
+      <div class="form-section">
+        <h3 class="form-section__title">Адрес регистрации</h3>
+
+        <input class="form-input" placeholder="Регион" type="text" name="" id="">
+        <input class="form-input" placeholder="Город" type="text" name="" id="">
+        <input class="form-input" placeholder="Улица" type="text" name="" id="">
+        <input class="form-input" placeholder="Дом" type="text" name="" id="">
+        <input class="form-input" placeholder="Квартира" type="text" name="" id="">
+
+        <div class="confirm-container">
+          <span class="confirm__text">Совпадает с фактическим:</span>
+
+          <input class="adress-radio" type="radio" name="adress_confirm" id="adress_confirm_1">
+          <label class="confirm-label" checked=checked for="adress_confirm_1">Да</label>
+          <input class="adress-radio" type="radio" name="adress_confirm" id="adress_confirm_2">
+          <label class="confirm-label" for="adress_confirm_2">Нет</label>
+        </div>
+      </div>
+    </form>
+
+    <button class="save-button" from="data">
+      <span>СОХРАНИТЬ</span>
+    </button>
+  </main>
+
+</body>
+
+</html>

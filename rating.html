@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Личный кабинет</title>
+  <link rel="stylesheet" href="./src/style/style.css">
+
+  <link rel="stylesheet" href="./src/style/rating.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-content">
+      <div class="header-brand">
+        <img class="brand-logo" src="./src/images/header/brand-logo.svg" alt="RYABINA CREDIT" />
+        <h1 class="brand-title"><span class="brand-underline">R</span>YABINA CREDIT</h1>
+      </div>
+
+      <div class="header-links">
+        <a class="header-phone" href="tel:+74950110043">+7 (495) 011-00-43</a>
+
+        <a class="header-link__action header-link__login" href="#">Личный кабинет</a>
+
+        <a class="header-link__action header-link__logout" href="#">Выйти</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu-container">
+    <a class="menu-item" href="./profile.html">
+      <img class="menu-item__image" src="./src/images/menu/profile.svg" alt="[]" />
+      <span class="menu-item__title item-title__profile">ПРОФИЛЬ</span>
+    </a>
+
+    <a class="menu-item menu-item__active" href="./rating.html">
+      <img class="menu-item__image" src="./src/images/menu/rating.svg" alt="[]" />
+      <span class="menu-item__title">ФИНАНСОВЫЙ РЕЙТИНГ</span>
+    </a>
+
+    <a class="menu-item" href="./notification.html">
+      <img class=" menu-item__image" src="./src/images/menu/sms.svg" alt="[]" />
+      <span class="menu-item__title">СМС УВЕДОМЛЕНИЯ</span>
+    </a>
+
+    <a class="menu-item" href="./feedback.html">
+      <img class="menu-item__image" src="./src/images/menu/feedback.svg" alt="[]" />
+      <span class="menu-item__title">ОБРАТНАЯ СВЯЗЬ</span>
+    </a>
+
+    <a class="menu-item" href="./offers.html">
+      <img class="menu-item__image" src="./src/images/menu/offers.svg" alt="[]" />
+      <span class="menu-item__title">МОИ ПРЕДЛОЖЕНИЯ</span>
+    </a>
+
+    <a class="menu-item" href="./consultation.html">
+      <img class="menu-item__image" src="./src/images/menu/consultation.svg" alt="[]" />
+      <span class="menu-item__title">ЮРИДИЧЕСКАЯ КОНСУЛЬТАЦИЯ</span>
+    </a>
+  </div>
+
+  <main class="main">
+    <h2 class="section-title">
+      РЕЙТИНГ ФИНАНСОВОГО ЗДОРОВЬЯ
+    </h2>
+    <span class="rating-sertificate">Дата проверки: 22.06.2020№ 5851143</span>
+
+    <div class="section-description">
+      <p class="description-text">
+        Оценка бюро кредитных историй может отличаться от оценки конкретных кредитных организаций. Она проведена по
+        правилам,<br class="br_1" /> максимально приближенным к критериям крупнейших банков, но не идентична им. <br
+          class="br_2" />
+        Рейтинг финансового здоровья (или еще по-другому кредитный рейтинг) – это один из главных показателей, который
+        оценивается банками при решении о предоставлении займа. Он неразрывно связан с кредитной историей и, фактически,
+        представляет собой числовую оценку ее качества. Выражается трехзначным числом, значение которого у большинства
+        потенциальных клиентов колеблется от 300-500 кредитов до 690-850.
+      </p>
+    </div>
+
+    <div class="section-chanses">
+      <div class="info-column">
+        <ul class="info-list">
+          <li class="list-item list-item__approved">
+            <img src="./src/images/rating/approved.svg" alt="" class="item-icon item-icon__approved" />
+            <img src="./src/images/rating/declined.svg" alt="" class="item-icon item-icon__declined" />
+
+            <span class="item-text">Информация о Вас найдена</span>
+          </li>
+
+          <li class="list-item list-item__approved">
+            <img src="./src/images/rating/approved.svg" alt="" class="item-icon item-icon__approved" />
+            <img src="./src/images/rating/declined.svg" alt="" class="item-icon item-icon__declined" />
+
+            <span class="item-text">Ваш рейтинг: Средний</span>
+          </li>
+
+          <li class="list-item list-item__declined">
+            <img src="./src/images/rating/approved.svg" alt="" class="item-icon item-icon__approved" />
+            <img src="./src/images/rating/declined.svg" alt="" class="item-icon item-icon__declined" />
+
+            <span class="item-text">Высокая вероятность отказа</span>
+          </li>
+
+          <li class="list-item list-item__approved">
+            <img src="./src/images/rating/approved.svg" alt="" class="item-icon item-icon__approved" />
+            <img src="./src/images/rating/declined.svg" alt="" class="item-icon item-icon__declined" />
+
+            <span class="item-text">Очень сильная заинтересованность в кредитах</span>
+          </li>
+
+          <li class="list-item list-item__approved">
+            <img src="./src/images/rating/approved.svg" alt="" class="item-icon item-icon__approved" />
+            <img src="./src/images/rating/declined.svg" alt="" class="item-icon item-icon__declined" />
+
+            <span class="item-text">Владелец паспорта не разыскивается</span>
+          </li>
+
+          <li class="list-item list-item__declined">
+            <img src="./src/images/rating/approved.svg" alt="" class="item-icon item-icon__approved" />
+            <img src="./src/images/rating/declined.svg" alt="" class="item-icon item-icon__declined" />
+
+            <span class="item-text">Есть безнадежный долг или передано на взыскание </span>
+          </li>
+        </ul>
+      </div>
+      <div class="result-column">
+        <span class="result-text">
+          Возможность одобрения нового кредита банком
+        </span>
+
+        <div class="chanses-container">
+          <img class="chanses-image" src="./src/images/rating/chansesFile.svg" alt="" />
+          <span class="chanses-value">85%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-health">
+      <div class="rating-column">
+        <h4 class="rating-title">Ваш рейтинг финансового здоровья</h4>
+
+        <span class="user-rating-value rating-value__average">
+          585
+        </span>
+
+        <div class="meter-container">
+          <img class="meter" src="./src/images/rating/meter.svg" alt="" />
+          <img class="meter-arrow" src="./src/images/rating/meterArrow.svg" alt="">
+        </div>
+      </div>
+
+      <div class="values-column">
+        <div class="value-block">
+          <span class="rating-value rating-value__vlow">300 - 400</span>
+
+          <p class="rating-description">
+            Очень плохая оценка. В «классических» банках вам вероятнее всего откажут, и
+            дополнительное финансирование придется искать в МФО, КПК и ломбардах.
+          </p>
+        </div>
+
+        <div class="value-block">
+          <span class="rating-value rating-value__low">400 - 500</span>
+
+          <p class="rating-description">
+            Вероятность отказа высока. Надеяться можно только на дорогой кредит определенной
+            категории (товарный, например) на небольшой срок
+          </p>
+        </div>
+
+        <div class="value-block">
+          <span class="rating-value rating-value__average">500 - 600</span>
+
+          <p class="rating-description">
+            Кредит возможен, но условия по нему будет диктовать уже банк. Вероятно снижение
+            одобренной суммы и повышенный процент по кредиту.
+          </p>
+        </div>
+
+        <div class="value-block">
+          <span class="rating-value rating-value__high">600 - 700</span>
+
+          <p class="rating-description">
+            Стандартный балл и стандартные условия кредитования.
+          </p>
+        </div>
+
+        <div class="value-block">
+          <span class="rating-value rating-value__vhigh">700 - 850</span>
+
+          <p class="rating-description">
+            Это отличная оценка вашего финансового здоровья. С таким баллом не банки выбирают вас, а вы – банки. Можно
+            искать более выгодные условия по кредиту, требовать пониженную ставку.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>

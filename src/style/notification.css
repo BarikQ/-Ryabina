@@ -1,0 +1,96 @@
+body {
+  padding-bottom: 180px;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+  text-align: center;
+}
+
+.action-description {
+  max-width: 446px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  
+  color: #333333;
+}
+
+.sms-input {
+  width: 260px;
+  height: 45px;
+  padding: 11px 14px;
+  margin-top: 20px;
+  background: #FFFFFF;
+  border: 1px solid #D4D3D7;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.sms-input:focus {
+  outline: #D4D3D7;
+}
+
+.action-code {
+  position: relative;
+}
+
+.action-send {
+  position: absolute;
+  width: 112px;
+  margin-left: 30px;
+  top: 50%;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+
+  color: #EE3124;
+}
+
+.unsubscribe-button {
+  width: 260px;
+  height: 50px;
+  margin-top: 20px;
+  background: #EE3124;
+  border-radius: 7px;
+  border: none;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.unsubscribe-button:focus {
+  outline: none;
+}
+
+.change-number {
+  margin-top: 16px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  
+  color: #333333;
+}

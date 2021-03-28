@@ -1,0 +1,106 @@
+body {
+  padding-bottom: 72px;
+}
+
+.section-offers {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 220px);
+  grid-gap: 27px;
+  justify-content: space-evenly;
+  margin-top: 34px;
+}
+
+.offer-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 220px;
+  height: 270px;
+  box-sizing: border-box;
+  padding: 10px 12px 18px 12px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+}
+
+.offer-rating {
+  width: 196.43px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+
+  background: #EE3124;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.15);
+  border-radius: 10px 0px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+}
+
+.offer-advantages {
+  margin-top: 24px;
+  align-self: flex-start;
+}
+
+.offer-advantage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 11px;
+}
+
+.advantage-text {
+  margin-left: 15px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  
+  color: #333333;
+}
+
+ul {
+  list-style: none;
+}
+
+.offer-button {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  background: #EE3124;
+  border-radius: 7px;
+  border: none;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.offer-button:focus {
+  outline: none;
+}
+
+.offer-button:hover {
+  box-shadow: 0 2px 10px -5px black;
+}
+
