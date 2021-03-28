@@ -106,11 +106,6 @@ body {
   padding-bottom: 36px;
 }
 
-.call-button__mobile,
-.consultation-phone__mobile {
-  display: none;
-}
-
 @media (max-width: 762px) {
 
 }
@@ -144,18 +139,6 @@ body {
   .call-button {
     max-width: 320px;
     width: 100%;
-  }
-
-  .call-button__mobile,
-  .consultation-phone__mobile {
-    display: flex;
-    justify-content: center;
-    margin: 5px 0;
-    width: 100%;
-  }
-
-  .call-button__mobile {
-    margin-bottom: 20px;
   }
 
   .consultation-phone .phone-icon {
