@@ -128,8 +128,46 @@ body {
 
   cursor: pointer;
   color: #FFFFFF;
+  box-shadow: 0 0 0 0 black;
+  transition: 0.2s ease all;
 }
 
 .save-button:focus {
   outline: none;
+}
+
+.save-button:hover {
+  box-shadow: 0 2px 10px -5px black;
+  transition: 0.2s ease all;
+}
+
+.confirm-br {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .profile-form {
+    width: 100%;
+  }
+
+  .form-section {
+    width: 100%;
+  }
+
+  .form-input {
+    width: 100% !important;
+  }
+
+  .confirm-br {
+    display: unset;
+  }
+
+  .confirm-label {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .save-button {
+    width: 100%;
+  }
 }

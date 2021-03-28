@@ -12,10 +12,60 @@
 </head>
 
 <body>
+  <input class="overlay-checkbox" type="checkbox" name="" id="overlayMenu" />
+  <div class="overlay-menu">
+    <div class="overlay-header">
+      <label class="menu-button" for="overlayMenu">
+        <img class="menu-icon" src="./src/images/burger.svg" alt="" />
+      </label>
+
+      <a class="logout-container">
+        <img src="./src/images/logout.svg" alt="" />
+
+        <span>ВЫЙТИ</span>
+      </a>
+    </div>
+
+    <div class="overlay-container">
+      <a class="menu-item" href="./profile.html">
+        <img class="menu-item__image" src="./src/images/menu/profile.svg" alt="[]" />
+        <span class="menu-item__title item-title__profile">ПРОФИЛЬ</span>
+      </a>
+
+      <a class="menu-item" href="./rating.html">
+        <img class="menu-item__image" src="./src/images/menu/rating.svg" alt="[]" />
+        <span class="menu-item__title">ФИНАНСОВЫЙ РЕЙТИНГ</span>
+      </a>
+
+      <a class="menu-item" href="./notification.html">
+        <img class=" menu-item__image" src="./src/images/menu/sms.svg" alt="[]" />
+        <span class="menu-item__title">СМС УВЕДОМЛЕНИЯ</span>
+      </a>
+
+      <a class="menu-item" href="./feedback.html">
+        <img class="menu-item__image" src="./src/images/menu/feedback.svg" alt="[]" />
+        <span class="menu-item__title">ОБРАТНАЯ СВЯЗЬ</span>
+      </a>
+
+      <a class="menu-item" href="./offers.html">
+        <img class="menu-item__image" src="./src/images/menu/offers.svg" alt="[]" />
+        <span class="menu-item__title">МОИ ПРЕДЛОЖЕНИЯ</span>
+      </a>
+
+      <a class="menu-item" href="./consultation.html">
+        <img class="menu-item__image" src="./src/images/menu/consultation.svg" alt="[]" />
+        <span class="menu-item__title">ЮРИДИЧЕСКАЯ КОНСУЛЬТАЦИЯ</span>
+      </a>
+    </div>
+  </div>
 
   <header class="header">
     <div class="header-content">
       <div class="header-brand">
+        <label class="menu-button" for="overlayMenu">
+          <img class="menu-icon" src="./src/images/burger.svg" alt="" />
+        </label>
+
         <img class="brand-logo" src="./src/images/header/brand-logo.svg" alt="RYABINA CREDIT" />
         <h1 class="brand-title"><span class="brand-underline">R</span>YABINA CREDIT</h1>
       </div>
@@ -78,5 +128,6 @@
   </main>
 
 </body>
+<script src="./src/script/index.js"></script>
 
 </html>

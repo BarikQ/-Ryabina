@@ -12,10 +12,60 @@
 </head>
 
 <body>
+  <input class="overlay-checkbox" type="checkbox" name="" id="overlayMenu" />
+  <div class="overlay-menu">
+    <div class="overlay-header">
+      <label class="menu-button" for="overlayMenu">
+        <img class="menu-icon" src="./src/images/burger.svg" alt="" />
+      </label>
+
+      <a class="logout-container">
+        <img src="./src/images/logout.svg" alt="" />
+
+        <span>ВЫЙТИ</span>
+      </a>
+    </div>
+
+    <div class="overlay-container">
+      <a class="menu-item" href="./profile.html">
+        <img class="menu-item__image" src="./src/images/menu/profile.svg" alt="[]" />
+        <span class="menu-item__title item-title__profile">ПРОФИЛЬ</span>
+      </a>
+
+      <a class="menu-item" href="./rating.html">
+        <img class="menu-item__image" src="./src/images/menu/rating.svg" alt="[]" />
+        <span class="menu-item__title">ФИНАНСОВЫЙ РЕЙТИНГ</span>
+      </a>
+
+      <a class="menu-item" href="./notification.html">
+        <img class=" menu-item__image" src="./src/images/menu/sms.svg" alt="[]" />
+        <span class="menu-item__title">СМС УВЕДОМЛЕНИЯ</span>
+      </a>
+
+      <a class="menu-item" href="./feedback.html">
+        <img class="menu-item__image" src="./src/images/menu/feedback.svg" alt="[]" />
+        <span class="menu-item__title">ОБРАТНАЯ СВЯЗЬ</span>
+      </a>
+
+      <a class="menu-item" href="./offers.html">
+        <img class="menu-item__image" src="./src/images/menu/offers.svg" alt="[]" />
+        <span class="menu-item__title">МОИ ПРЕДЛОЖЕНИЯ</span>
+      </a>
+
+      <a class="menu-item" href="./consultation.html">
+        <img class="menu-item__image" src="./src/images/menu/consultation.svg" alt="[]" />
+        <span class="menu-item__title">ЮРИДИЧЕСКАЯ КОНСУЛЬТАЦИЯ</span>
+      </a>
+    </div>
+  </div>
 
   <header class="header">
     <div class="header-content">
       <div class="header-brand">
+        <label class="menu-button" for="overlayMenu">
+          <img class="menu-icon" src="./src/images/burger.svg" alt="" />
+        </label>
+
         <img class="brand-logo" src="./src/images/header/brand-logo.svg" alt="RYABINA CREDIT" />
         <h1 class="brand-title"><span class="brand-underline">R</span>YABINA CREDIT</h1>
       </div>
@@ -94,9 +144,9 @@
         <input class="form-input" placeholder="Квартира" type="text" name="" id="">
 
         <div class="confirm-container">
-          <span class="confirm__text">Совпадает с фактическим:</span>
+          <span class="confirm-text">Совпадает с фактическим:</span> <br class="confirm-br/>
 
-          <input class="adress-radio" type="radio" name="adress_confirm" id="adress_confirm_1">
+          <input class=" adress-radio" type="radio" name="adress_confirm" id="adress_confirm_1">
           <label class="confirm-label" checked=checked for="adress_confirm_1">Да</label>
           <input class="adress-radio" type="radio" name="adress_confirm" id="adress_confirm_2">
           <label class="confirm-label" for="adress_confirm_2">Нет</label>
@@ -110,5 +160,6 @@
   </main>
 
 </body>
+<script src="./src/script/index.js"></script>
 
 </html>
