@@ -207,7 +207,8 @@ ul {
   position: absolute;
   left: 50%;
   bottom: 16px;
-  transform: translateX(-50%);
+  transform-origin: center 66px 0px;
+  transform: translate(-50%, 66px) rotate(0deg);
 }
 
 .rating-column {
