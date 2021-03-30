@@ -208,7 +208,7 @@ ul {
   left: 50%;
   bottom: 16px;
   transform-origin: center 66px 0px;
-  transform: translate(-50%, 66px) rotate(0deg);
+  transform: translate(-50%, 67px) rotate(0deg);
 }
 
 .rating-column {
@@ -379,5 +379,9 @@ ul {
 
   .rating-title {
     text-align: center;
+  }
+
+  .meter-arrow {
+    bottom: 10px;
   }
 }
